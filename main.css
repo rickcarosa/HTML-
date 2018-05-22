@@ -1,0 +1,158 @@
+body {
+    /* 23D-1 */
+    /* 23D-2 */
+    /* 23D-3 */
+    /* 23E */
+    /* 23F */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    background-color: #f4f4f4;
+    background-image: url('./pic.jpg');
+    
+}
+
+/* 22C-2 */
+.container{
+    width: 100;
+    /* 25C-1 */
+    position: relative;
+}
+
+.star_two{
+    /* 25D */
+    float: right;
+}
+
+.container_two{
+    /* 25C-2 */
+    position: absolute;
+    /* 24F */
+    box-sizing: border-box;
+    width: 300px;
+    height: 220px;
+    /* 24E */
+    padding: 10px;
+    /* 24D */
+    border: 5px solid red;
+    /* 24C */
+    margin: 15px;
+}
+
+/* 22C-1 */
+#branding{
+    text-decoration: underline;
+    
+}
+
+/* 22C-3 */
+ul li{
+    font-size: 20px;
+    /* 25F */
+    display: inline-block;
+}
+
+/* 22C-5 */
+div + h2{
+    color: red
+}
+
+/* 22C-4 */
+.footer_container>div{
+    color: red
+}
+
+.footer{
+    /* 25C-3 */
+    position: fixed;
+    margin-top: 30%
+}
+
+
+.services{
+    /* 31D */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* 31C */
+    --main-color: blue;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    /* 31C */
+    color: var(--main-color);
+    border-radius: 50%;
+    border: 1px solid blue;
+    text-align: center;
+    margin: auto;
+    padding: 10px
+}
+
+.button{
+    padding: 10px;
+}
+
+.service_container{
+    margin-top: 30px;
+    /* 27G */
+    display: flex;
+    /* 27F */
+    flex-direction: row-reverse;
+    /* 27E */
+    flex-wrap: wrap;
+    /* 27C */
+    justify-content: space-around;
+    /* 27D */
+	align-items: center;
+}
+
+.box{
+    border: 2px solid green;
+    padding: 20px;
+    /* 30C */
+    box-shadow: 2px 5px;
+    margin-bottom: 50px;
+    /* 30D */
+    background: linear-gradient(to bottom left, red, yellow);
+}
+
+/* 30E */
+#effect{
+    white-space: nowrap;
+    width: 360px;
+    border: 1px solid blue;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 26E */
+input:disabled{
+    background: gray;
+}
+
+/* 26G */
+input[type=text]:focus{
+    width: 200px
+}
+
+/* 26H */
+.button:hover{
+    background: green;
+    color: yellow;
+}
+
+/* 26L */
+section:nth-child(odd){
+    background: linear-gradient(to bottom left, red, yellow);
+}
+
+
+/* 29C */
+/* 29D */
+@media screen and (max-width: 375px){
+    .services{
+        grid-template-columns: 1fr 1fr 
+    }
+}
